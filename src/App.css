@@ -1,0 +1,75 @@
+.jumbotroon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom right, #449a48, #a6ef8b);
+  padding: 30px;
+}
+
+.jumbotroon h1 {
+  color: #ffffff,
+}
+
+.jumbotroon .form {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.jumbotroon .form input {
+  border: none;
+  width: 300px;
+  padding: 5px;
+}
+
+.jumbotroon .form .btn-submit {
+  border: none;
+  background-color: orange;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #cccccc;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.card .text {
+  flex: 3;
+}
+
+.button-action {
+  flex: 1;
+}
+
+.btn-edit {
+  border: none;
+  background-color: orange;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.btn-delete {
+  border: none;
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  margin: 2px;
+}
